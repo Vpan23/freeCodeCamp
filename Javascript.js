@@ -308,13 +308,96 @@
 // };
 // console.log(resultado.nombre);
 
-var mochila = {
-    "color": "azul",
-    "tamanho": "mediano",
-    "contenido": ["botella de agua", "cuaderno"]
-};
-console.log(mochila);
-mochila.color = "verde";
-console.log(mochila);
-mochila.contenido.push("lapiz");
-console.log(mochila);
+// var mochila = {
+//     "color": "azul",
+//     "tamanho": "mediano",
+//     "contenido": ["botella de agua", "cuaderno"]
+// };
+// console.log(mochila);
+// mochila.color = "verde";
+// console.log(mochila);
+// mochila.contenido.push("lapiz");
+// console.log(mochila);
+
+//Objetos Anidados.
+// var miReceta = {
+//     "descripcion": "mi postre fav",
+//     "costo": 15.6,
+//     "ingredientes": {
+//         "masa": {
+//             "harina": "100 grs",
+//             "sal": "120 grs",
+//             "chocolate": "4 cucharadas",
+//             "mantequilla": "200 grs"
+//         },
+//         "cobertura": {
+//             "azucar": "120 grs",
+//             "agua": "1 cucharada"
+//         }
+//     }
+// }
+// console.log(miReceta.ingredientes.masa.sal);
+
+// var misPlantas = [
+//     {
+//         tipo: "flores",
+//         lista: [
+//             "rosas",
+//             "tulipanes",
+//             "dientes de leon"
+//         ]
+//     },
+//     {
+//         tipo: "flores",
+//         lista: [
+//             "rosas",
+//             "tulipanes",
+//             "dientes de leon"
+//         ]
+//     }
+// ];
+// console.log(misPlantas[0].lista[0]);
+
+// var coleccionDeDiscos = {
+//     7853: {
+//         tituloDelAlbum: "Bee Gees Greatest",
+//         artista: "Bee Gees",
+//         canciones: [
+//             "Stayin' Alive"
+//         ]
+//     },
+//     5439: {
+//         tituloDelAlbum: "ABBA Gold"
+//     }
+// };
+
+// function actualizarDiscos(discos, id, propiedad, valor) {
+//     if (valor === "") {
+//         delete discos[id][propiedad];
+//     }else if(propiedad === "canciones") {
+//         discos[id][propiedad] = discos[id][propiedad] || [];
+//         discos[id][propiedad].push(valor);
+//     }else {
+//         discos[id][propiedad] = valor;
+//     }
+// };
+// console.log(coleccionDeDiscos[5439].canciones);
+// actualizarDiscos(coleccionDeDiscos, 5439, "canciones","mama-mia");
+// console.log(coleccionDeDiscos[5439].canciones);
+
+//Ciclos While.
+// var a = 0;
+// while(a<3){
+//     console.log("Hello World");
+//     a++;
+// }
+
+//Retornar el minimo de un valor.
+function retornarMinimo(x, y){
+    return x < y ? x : y;
+}
+console.log(retornarMinimo(7,6));
+console.log(retornarMinimo(4,6));
+console.log(retornarMinimo(1,6));
+console.log(retornarMinimo(8,6));
+console.log(retornarMinimo(9,6));
