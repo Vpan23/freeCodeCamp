@@ -401,3 +401,78 @@ console.log(retornarMinimo(4,6));
 console.log(retornarMinimo(1,6));
 console.log(retornarMinimo(8,6));
 console.log(retornarMinimo(9,6));
+
+// var contactos = [
+//   {
+//     "nombre": "Nora",
+//     "apellido": "Nav",
+//     "numero": "054325336",
+//     "gustos": ["pizza","programacion"]
+//   },
+//   {
+//     "nombre": "Harry",
+//     "apellido": "Potter",
+//     "numero": "095959146",
+//     "gustos": ["hogwarts","magia"]
+//   },
+//   {
+//     "nombre": "Sherlock",
+//     "apellido": "Holmes",
+//     "numero": "00484456261",
+//     "gustos": ["casos interesantes","violin"]
+//   }
+// ];
+// function buscarPerfil(nombre, propiedad){
+//   for(let i = 0; i<contactos.length; i++){
+//     if(nombre == contactos[i].nombre){
+//       return contactos[i][propiedad] || "la propiedad no existe.";
+//       }
+//     }
+//     return "el contacto no existe"
+// }
+
+// console.log(buscarPerfil("sherlock","numero"));
+
+// function generarFraccionAleatoria() {
+//   return Math.random(); // [0, 1)
+// }
+// console.log(generarFraccionAleatoria());
+// console.log(generarFraccionAleatoria());
+// console.log(generarFraccionAleatoria());
+// console.log(generarFraccionAleatoria());
+
+// var numeroAleatorioEntero0y19 = Math.floor(Math.random() * 20);
+// console.log(numeroAleatorioEntero0y19);
+// for(let i = 0; i<30; i++){
+//   var numeroAleatorio = Math.random() * 100;
+//   console.log(numeroAleatorio);
+// }
+// function generarEnteroAleatorio(limiteSuperior) {
+//   return Math.floor(Math.random() * limiteSuperior);
+// }
+// for(let a = 0; a < 15; a++){
+//   console.log(generarEnteroAleatorio(a));
+// }
+
+// function generarNumeros(inferior, superior) {
+//   return Math.floor(Math.random() * (superior - inferior + 1))+ inferior ;
+// }
+// console.log(generarNumeros(4,5));
+// console.log(generarNumeros(4,5));
+// console.log(generarNumeros(4,5));
+// console.log(generarNumeros(4,5));
+
+// console.log(parseInt("0"));
+
+// var sumar = (x) => x+3;
+// console.log(sumar(2));
+
+// const concatenar = function(arr1, arr2) {
+//   return arr1.concat(arr2);
+// }
+// console.log(concatenar("hola ", "Como estas"));
+// const concato = (var1,var2) => var1.concat(var2);
+// console.log(concato("Hola ", "Mundo"));
+
+// const incrementar = (num, valor = 1) => num + valor;
+// console.log(incrementar(2,2));
