@@ -476,3 +476,84 @@ console.log(retornarMinimo(9,6));
 
 // const incrementar = (num, valor = 1) => num + valor;
 // console.log(incrementar(2,2));
+
+// const fecha = () => new Date();
+
+//  function miFuncion(...args) {
+//     console.log(args);
+// }
+// console.log(1, 2, 3, 4);
+
+// var sumar = (a, b) => a+b;
+// console.log(sumar(5,1));
+
+// const sumar = (...args) => {
+//     // const args = [x,y,z];
+//     return args.reduce((a, b) => a + b, "!Total: ") 
+// };
+// console.log(sumar(2,3,4));
+// const numeros = [1, 2, 3];
+// var sumar = (x, y, z) => x + y + z; 
+// console.log(sumar(...numeros));
+
+// const usuario = { 
+//     nombre: "Gino Smith",
+//     edad: 34
+// };
+// // const nombre = usuario.nombre;
+// // const edad = usuario.edad;
+// const {nombre, edad} = usuario;
+
+// var coordenadas = {
+//     x: 4,
+//     y: 6,
+//     z: 12
+// };
+// const {x,y,z} = coordenadas;
+// console.log(x); 
+// console.log(y); 
+// console.log(z); 
+
+// const usuario = {
+//     johnDoe: {
+//         edad: 24,
+//         correo: "johnDoe@freecodecamp.com"
+//     }
+// };
+// const {johnDoe: {edad: edadDelUsuario, correo: correoDelUsuario}} = usuario;
+// console.log(edadDelUsuario);
+// console.log(correoDelUsuario);
+
+// const PRONOSTICO_LOCAL = {
+//     "ayer": {
+//         minima: 62,
+//         maxima: 75
+//     },
+//     "hoy": {
+//         minima: 64,
+//         maxima: 77
+//     },
+//     "manana": {
+//         minima: 68,
+//         maxima: 80
+//     }
+// };
+// // const minimoHoy = PRONOSTICO_LOCAL.hoy.minima;
+// // const maximaHoy = PRONOSTICO_LOCAL.hoy.maxima;
+// // console.log(minimoHoy, maximaHoy);
+// const {
+//     ayer,
+//     hoy,
+//     manana
+// } = PRONOSTICO_LOCAL;
+// console.log(ayer.maxima);
+
+// var a;
+// var b;
+// [a,b,,,c] = [1,2,3,4,5,6];
+// console.log(a,b,c);
+
+// var a = 8; 
+// var b = 6;
+// [b, a] = [a, b];
+// console.log(a,b);
